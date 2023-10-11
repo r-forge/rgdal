@@ -1,6 +1,10 @@
 # Please note that **rgdal** will be retired during 2023, plan transition to sf/stars/terra functions using GDAL and PROJ at your earliest convenience (see https://r-spatial.org/r/2023/05/15/evolution4.html and earlier blogs for guidance).
 
-# Version 1.6-7 (development, rev. 1202-)
+# Version 1.6-8 (maintenance, rev. 1204-)
+
+* Use pkg-config in Makevars.ucrt if available
+
+# Version 1.6-7 (2023-05-31, rev. 1202-1203)
 
 * Make retirement in October 2023 explicit, move package start-up messages to load from attach
 
