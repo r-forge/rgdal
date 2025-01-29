@@ -2,7 +2,7 @@ Package: rgdal
 Title: Bindings for the 'Geospatial' Data Abstraction Library
 Version: 1.6-8
 Date: 2023-10-11
-Depends: R (>= 3.5.0), methods, sp (>= 1.1-0)
+Depends: R (>= 3.5.0), methods, sp (< 2.2-0)
 Imports: grDevices, graphics, stats, utils
 LinkingTo: sp
 Suggests: knitr, DBI, RSQLite, maptools, mapview, rmarkdown, curl, rgeos
